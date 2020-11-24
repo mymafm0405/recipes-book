@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipes-project';
+  linkName = '';
+
+  onLinkClicked(linkData: string) {
+    this.linkName = linkData;
+  }
 }
