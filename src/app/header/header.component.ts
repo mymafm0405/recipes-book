@@ -6,18 +6,18 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Output() linkClicked = new EventEmitter<string>()
+  // @Output() linkClicked = new EventEmitter<string>()
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
-  onRecipesClick() {
-    this.linkClicked.emit('recipe');
-  }
+  // onRecipesClick() {
+  //   this.linkClicked.emit('recipe');
+  // }
 
-  onShoppingClick() {
-    this.linkClicked.emit('shopping');
-  }
+  // onShoppingClick() {
+  //   this.linkClicked.emit('shopping');
+  // }
 
 }
