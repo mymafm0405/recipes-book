@@ -14,7 +14,6 @@ export class RecipeDetailsComponent implements OnInit {
   recipeSelected: Recipe;
   id: number;
   constructor(private slService: ShoppingListService, private recipesService: RecipesService, private route: ActivatedRoute, private router: Router) {
-    console.log(this.recipeSelected);
   }
 
   ngOnInit() {
